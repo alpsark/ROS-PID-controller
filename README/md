@@ -1,0 +1,8 @@
+inverse and forward kinematics in UR 10 6 dof robot
+
+run roscore
+open vrep assingment5.ttt
+catkin_make ros-ws
+rosrun moving_in_corridor moving_in_corridor
+rosrun rqt_plot rqt_plot
+subscribe /error
